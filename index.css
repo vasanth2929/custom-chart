@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/*
+  Dashed Semi Circle
+*/
+.outline {
+  fill: transparent;
+  stroke: #c99400;
+  stroke-dasharray: 7, 7;
+}
+
+/*
+ Transparent Rectangle
+*/
+.hide {
+  fill: white;
+  width: 500px;
+  height: 200px;
+}
